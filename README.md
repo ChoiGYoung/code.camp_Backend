@@ -1,9 +1,18 @@
+# cyworld
+
+### html, css, javascript 이해를 위한 cyworld 페이지 만들기
+
+
+![image](https://github.com/ChoiGYoung/code.camp_Backend/assets/110095557/58666abb-8893-4e9c-bdd2-f54542eb2901)
+![image](https://github.com/ChoiGYoung/code.camp_Backend/assets/110095557/4426ca04-dc46-430f-b423-3083510b76f6)
+![image](https://github.com/ChoiGYoung/code.camp_Backend/assets/110095557/37f91a3e-ab48-45f5-9fcf-1bdb8f1bda5d)
+
+
 
 # **Final**
 <img src="https://github.com/ChoiGYoung/code.camp_Backend/assets/110095557/6836966a-518f-4e6e-be9d-a4bc0f507205" width="250" height="400"/>
 <img src="https://github.com/ChoiGYoung/code.camp_Backend/assets/110095557/3ce20029-67c2-443c-b2a4-4f5fd50532da" width="250" height="400"/>
 <img src="https://github.com/ChoiGYoung/code.camp_Backend/assets/110095557/2335d0ef-47c2-4aae-bbf5-0bc5eb4ea91b" width="250" height="400"/>
-
 
 
 ### **HTML / CSS 요구사항**
