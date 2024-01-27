@@ -11,25 +11,32 @@
 
       <!-- 회원가입 -->
       <input class="inputbox" id="email" type="text" placeholder="이메일을 입력해 주세요">
+      <div class="error" id="error__email"></div>
+      
       <input class="inputbox" id="name" type="text" placeholder="이름을 입력해 주세요">
+      <div class="error" id="error__name"></div>
+      
       <input class="inputbox" id="pw1" type="text" placeholder="비밀번호를 입력해 주세요">
+      <div class="error" id="error__pw1"></div>
+      
       <input class="inputbox" id="pw2" type="text" placeholder="비밀번호를 다시 입력해 주세요">
+      <div class="error" id="error__pw2"></div>
       
       <!-- phone -->
       <div class="phone">
-         <input class="phoneNumber" id="phone1" type="text">-
-         <input class="phoneNumber" id="phone2" type="text">-
-         <input class="phoneNumber" id="phone3" type="text">
+         <input class="phoneNumber" id="phone1" type="text" oninput="changeFocus1()">-
+         <input class="phoneNumber" id="phone2" type="text" oninput="changeFocus2()">-
+         <input class="phoneNumber" id="phone3" type="text" oninput="changeFocus3()">
       </div>
 
       <!-- token -->
       <div class="token">
          <div class="token__number" id="token__number">000000</div>
-         <button id="token__button" disabled>인증번호 전송</button>
+         <button id="token__button" onclick="getToken()" disabled>인증번호 전송</button>
       </div>
       <div class="token">
          <div class="token__timer" id="token__timer">3:00</div>
-         <button id="token__timer__button" disabled>인증 완료</button>
+         <button id="token__timer__button"  onclick="getTokenTimerConfirm()" disabled>인증 완료</button>
       </div>
 
       <!-- 지역선택 -->
@@ -40,6 +47,7 @@
             <option>경기</option>
             <option>인천</option>
         </select>
+        <div class="error" id="error__location"></div>
       </div>
 
       <!-- 성별 -->
@@ -51,12 +59,13 @@
             <input type="radio" class="gender__radio" name="gender" id="gender__man"> 남성
          </div>
       </div>
+      <div class="error" id="error__gender"></div>
 
       <hr>
 
       <!-- 가입하기버튼 -->
       <div class="footer">
-         <button id="signup__button" disabled>가입하기</button>
+         <button id="signup__button" onclick="signup()" disabled>가입하기</button>
       </div>
 
    </div>

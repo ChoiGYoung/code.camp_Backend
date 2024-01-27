@@ -135,4 +135,10 @@ hr {
     font-size: 18px;
 }
 
+.error {
+    color: red;
+    height: 10px;
+    font-size: 11px;
+}
+
 
